@@ -1,0 +1,14 @@
+.t-home {
+  .pagination {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  .pagination__item {
+    padding: 10px;
+    border: $product-grid-border;
+  }
+  .current-page {
+    border: $pagination-border;
+  }
+}

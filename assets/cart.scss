@@ -1,0 +1,15 @@
+.t-cart {
+  .cart-page__items .cart__line-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    & > div {
+      flex-grow: 1;
+      width: 20%;
+    }
+  }
+  .cart-page__items {
+    width: 80%;
+    margin: 60px auto;
+  }
+}
